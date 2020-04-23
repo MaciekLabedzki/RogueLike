@@ -1,4 +1,5 @@
 ﻿using System;
+using RogueLike.ScreenManager;
 
 namespace RogueLike
 {
@@ -6,7 +7,11 @@ namespace RogueLike
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!"); //init
+            //Here code to run the full game
+
+            Screen screen = new Screen();
+
+            screen.endScreen();
         }
     }
 }
